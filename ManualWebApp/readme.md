@@ -5,7 +5,7 @@ The only Prerequisites here is the _Dotnet SDK_ and any code editor.
 However, the _Dotnet CLI_ may only be used to install the needed package and run the application.  
 
 ### Setup
-__Prerequite__  
+__Prerequisite__  
 1. Dotnet SDK
 2. Code Editor
 
@@ -30,4 +30,5 @@ $ dotnet bin/Debug/net6.0/MyWebApp.dll
 ```bash
 $ dotnet publish --configuration Release --output ./publish
 ```
-8. Deploy the application by copying the content of the _publish_ directory to your host server.  
+8. Deploy the application  
+Copy the content of the _publish_ directory to your host server.  
