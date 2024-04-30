@@ -25,3 +25,9 @@ $ msbuild MyWebApp.csproj
 $ dotnet bin/Debug/net6.0/MyWebApp.dll
 ```
 6. Test in the browser by going to http://localhost:5000
+
+7. Publish the application  
+```bash
+$ dotnet publish --configuration Release --output ./publish
+```
+8. Deploy the application by copying the content of the _publish_ directory to your host server.  
